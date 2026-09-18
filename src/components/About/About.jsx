@@ -4,34 +4,32 @@ import './About.css';
 const About = () => {
   return (
     <section id="about" className="container about-section">
-      <h2 className="section-title gradient-text">The Vision</h2>
+      <h2 className="section-title gradient-text">About Me</h2>
       <div className="about-content glass-panel">
         <p className="about-text">
-          I am a 2nd-year CSE student at the intersection of creative frontend engineering and robust backend logic. 
-          My journey is fueled by a relentless curiosity for how things work under the hood.
+          I am a software developer passionate about building scalable full-stack applications and AI-powered solutions. My expertise spans the <strong>MERN Stack</strong>, REST APIs, real-time applications, <strong>Generative AI</strong>, <strong>Retrieval-Augmented Generation</strong>, and <strong>Agentic AI systems</strong>.
         </p>
         <p className="about-text">
-          Currently focusing on mastering <strong>Data Structures and Algorithms</strong> while crafting 
-          immersive web experiences using <strong>React</strong> and <strong>Node.js</strong>. 
-          I believe in code that isn't just performant, but an art form in itself.
+          I enjoy creating modern user experiences while integrating intelligent automation using <strong>Large Language Models</strong> and workflow tools like <strong>LangChain</strong> and <strong>LangGraph</strong>. My goal is to build impactful products that combine software engineering with artificial intelligence.
         </p>
 
         <div className="about-stats">
           <div className="stat-card">
-            <h3 className="stat-number gradient-text">DSA</h3>
-            <p className="stat-label">Problem Solving</p>
+            <h3 className="stat-number gradient-text">MERN</h3>
+            <p className="stat-label">Full Stack</p>
           </div>
           <div className="stat-card">
-            <h3 className="stat-number gradient-text">React</h3>
-            <p className="stat-label">Frontend</p>
+            <h3 className="stat-number gradient-text">AI</h3>
+            <p className="stat-label">Generative Systems</p>
           </div>
           <div className="stat-card">
-            <h3 className="stat-number gradient-text">Node.js</h3>
-            <p className="stat-label">Backend</p>
+            <h3 className="stat-number gradient-text">RAG</h3>
+            <p className="stat-label">Knowledge Apps</p>
           </div>
           <div className="stat-card">
-            <h3 className="stat-number gradient-text">Next.js</h3>
-            <p className="stat-label">Fullstack</p>
+            <h3 className="stat-number gradient-text">Agents</h3>
+            <p className="stat-label">Agentic AI</p>
+         
           </div>
         </div>
       </div>

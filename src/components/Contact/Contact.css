@@ -28,12 +28,38 @@
   gap: 1.2rem;
 }
 
+.social-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.5rem;
+}
+
+.social-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.7rem 1rem;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  transition: transform var(--transition-fast), background var(--transition-fast);
+}
+
+.social-btn:hover {
+  transform: translateY(-2px);
+  background: rgba(139, 92, 246, 0.16);
+}
+
 .contact-detail-item {
   display: flex;
   align-items: center;
   gap: 1rem;
   color: var(--text-primary);
   font-size: 1rem;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .contact-icon {

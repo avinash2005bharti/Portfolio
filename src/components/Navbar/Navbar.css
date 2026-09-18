@@ -52,3 +52,15 @@
     padding: 0.75rem;
   }
 }
+
+@media (max-width: 400px) {
+  .nav-list {
+    gap: 0.5rem;
+  }
+  .nav-item {
+    padding: 0.6rem;
+  }
+  .navbar {
+    padding: 0.4rem 0.8rem;
+  }
+}

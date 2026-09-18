@@ -1,0 +1,30 @@
+.stats-section {
+  padding-top: 2rem;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.stats-grid .stat-card {
+  padding: 1.5rem 1rem;
+  text-align: center;
+  min-height: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stats-grid .stat-number {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.stats-grid .stat-label {
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-secondary);
+}

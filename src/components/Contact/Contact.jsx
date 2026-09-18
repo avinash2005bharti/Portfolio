@@ -1,5 +1,6 @@
 import React from 'react';
-import { Mail, MapPin } from 'lucide-react';
+import { Mail, MapPin, FileText } from 'lucide-react';
+import { FiGithub, FiLinkedin } from 'react-icons/fi';
 import './Contact.css';
 
 const Contact = () => {
@@ -9,18 +10,30 @@ const Contact = () => {
         <div className="contact-info">
           <h2 className="section-title gradient-text" style={{ textAlign: 'left' }}>Let's Connect</h2>
           <p className="contact-desc">
-            Have a project in mind or just want to say hi? I'm always open to discussing new opportunities and creative ideas.
+            Open to opportunities in full-stack development, AI products, and agentic automation. Let’s build something impactful.
           </p>
-          
+
           <div className="contact-details">
-            <div className="contact-detail-item">
+            <a href="mailto:avinashbharti3007@gmail.com" className="contact-detail-item">
               <Mail className="contact-icon" size={20} />
               <span>avinashbharti3007@gmail.com</span>
-            </div>
+            </a>
             <div className="contact-detail-item">
               <MapPin className="contact-icon" size={20} />
               <span>Bhopal, India</span>
             </div>
+          </div>
+
+          <div className="social-links">
+            <a href="https://github.com/avinash2005bharti" target="_blank" rel="noopener noreferrer" className="social-btn">
+              <FiGithub size={18} /> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/avinash-bharti-183696261/" target="_blank" rel="noopener noreferrer" className="social-btn">
+              <FiLinkedin size={18} /> LinkedIn
+            </a>
+            <a href="https://ik.imagekit.io/avinash2005/RESUME.pdf" target="_blank" rel="noopener noreferrer" className="social-btn">
+              <FileText size={18} /> Resume
+            </a>
           </div>
         </div>
 
